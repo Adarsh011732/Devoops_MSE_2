@@ -1,0 +1,19 @@
+1.touch index.html
+
+
+2.echo "<h1>Hello</h1>" > index.html
+
+
+3.ls -l index.html
+
+
+3.chmod 777 index.html
+
+
+4.sudo chown www-data:www-data index.html
+
+
+5.chmod 755 index.html
+
+
+6.ls -l index.html

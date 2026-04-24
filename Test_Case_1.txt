@@ -1,0 +1,33 @@
+
+1.whoami
+
+2.who
+
+3.last
+
+4.uname -a
+hostname
+uptime
+
+
+5.sudo groupadd developers
+ sudo groupadd qa
+
+
+6.cat /etc/group
+
+7.Create users
+sudo useradd -m -G developers aman
+sudo useradd -m -G developers ritu
+sudo useradd -m -G qa karan
+
+8.Verify users
+id aman
+id karan
+
+9.Delete ritu
+sudo pkill -u ritu
+sudo userdel -r ritu
+
+10.Verify deletion
+id ritu

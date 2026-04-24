@@ -1,0 +1,26 @@
+
+1.npm init 
+
+
+2.npm install express
+
+
+3.touch index.js
+
+#Sample code:
+const express = require("express");
+const app = express();
+
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "OK" });
+});
+
+app.listen(8080, () => {
+  console.log("Server running on port 8080");
+});
+
+
+#Run:
+node index.js
+
+
